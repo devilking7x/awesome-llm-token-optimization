@@ -116,6 +116,7 @@ Reduce prompt size while preserving information quality.
 - [TOON](https://github.com/toon-format/toon) - Token-Oriented Object Notation: a compact, schema-aware encoding for passing JSON-like data to LLMs; 30-60% fewer tokens than JSON on uniform arrays of objects. ![Stars](https://img.shields.io/github/stars/toon-format/toon)
 - [llmtrim](https://github.com/fkiene/llmtrim) - Quality-gated local proxy and MCP server that compresses prompts, tool outputs, and replies before they reach the LLM, reverting any step that doesn't save tokens (project-reported -31% input / -74% output across 112 A/B cases). Rust CLI plus multi-language library bindings and a WebAssembly/JS package. ![Stars](https://img.shields.io/github/stars/fkiene/llmtrim)
 - [lean-ctx](https://github.com/yvgude/lean-ctx) - Rust binary context intelligence layer for AI coding agents; 60-90% fewer tokens via shell-output compression and 10 cached-read modes; MCP server with 76 tools and cross-session memory. Works with Claude Code, Cursor, Copilot, Windsurf, Gemini CLI, and 30+ others. ![Stars](https://img.shields.io/github/stars/yvgude/lean-ctx)
+- [TokenSlim](https://github.com/devilking7x/tokenslim) - Local-first web toolkit for cutting LLM API token spend: prompt compressor with real BPE counts, searchable 350-skill router, model cascade, semantic cache, and budget planner. ![Stars](https://img.shields.io/github/stars/devilking7x/tokenslim)
 
 ### Research
 
